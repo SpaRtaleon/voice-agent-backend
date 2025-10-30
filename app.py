@@ -8,7 +8,7 @@ from flask_cors import CORS
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:4200"])
+CORS(app, origins=["https://arjunfarms.vercel.app"])
 
 ULTRAVOX_API_KEY = os.getenv("ULTRAVOX_API_KEY")
 AGENT_ID = os.getenv("ULTRAVOX_AGENT_ID")
